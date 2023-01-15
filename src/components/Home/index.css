@@ -1,0 +1,13 @@
+.home-cont{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img{
+    height: 140px;
+}
+
+.dark-home-cont{
+    background-color: black;
+}

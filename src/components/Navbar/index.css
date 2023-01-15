@@ -1,0 +1,43 @@
+.navbar-cont{
+    box-shadow:1px 1px 10px 1px #e0e2e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4px 14px;
+}
+.home-about-cont{
+    display: flex;
+    gap: 20px;
+}
+@media all and (min-width:767px) {
+    .navbar-cont{
+        padding: 14px 50px;
+    }
+    .home-about-cont{
+        gap: 40px;
+    }
+}
+.logo-img{
+    height: 50px;
+}
+.routes{
+    font-size: 16px;
+    color: #171f46;
+    font-weight: 600;
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-navbar-cont{
+    background-color:  #333333;
+}
+.dark{
+    color: white;
+}

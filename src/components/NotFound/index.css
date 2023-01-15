@@ -1,0 +1,9 @@
+.not-found-img{
+    height: 280px;
+}
+.home-cont{
+    flex-direction: column;
+}
+.dark-not-found-heading, .dark-para{
+    color: white;
+}
